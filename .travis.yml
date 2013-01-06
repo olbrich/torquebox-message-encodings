@@ -1,3 +1,4 @@
+before_install: ls -la
 bundler_args: --verbose
 script: bundle exec rspec
 rvm:
