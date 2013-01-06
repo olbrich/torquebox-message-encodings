@@ -1,12 +1,16 @@
 # Torquebox::Message::Formats
 
-TODO: Write a gem description
+Provides some extra serialization formats for torquebox messages including:
+
+  * Msgpack (http://msgpack.org/)
+  * BSON (http://bsonspec.org/)
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'torquebox-message-formats'
+    gem 'torquebox-message-formats', :require => 'bson'
+    gem 'torquebox-message-formats', :require => 'msgpack'
 
 And then execute:
 
@@ -18,7 +22,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+    see http://torquebox.org/documentation/LATEST/messaging.html#message-encodings
 
 ## Contributing
 
