@@ -1,7 +1,7 @@
 require 'java'
 require 'jboss-jms-api_1.1_spec-1.0.1.Final.jar'
 require 'torquebox/messaging/message'
-require 'lib/torquebox-message-formats/msgpack'
+require 'lib/torquebox-message-encodings/msgpack'
 
 include TorqueBox::Messaging
 class MockMsgpackMessage
