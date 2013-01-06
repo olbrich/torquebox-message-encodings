@@ -1,5 +1,7 @@
 # Torquebox::Message::Formats
 
+[![Build Status](https://travis-ci.org/olbrich/torquebox-message-encodings.png?branch=master)](https://travis-ci.org/olbrich/torquebox-message-encodings)
+
 Provides some extra serialization formats for torquebox messages including:
 
   * Msgpack (http://msgpack.org/)
