@@ -1,4 +1,4 @@
 bundler_args: --verbose
-script: rspec
+script: bundle exec rspec
 rvm:
   - jruby
