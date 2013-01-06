@@ -8,12 +8,13 @@ Gem::Specification.new do |gem|
   gem.version       = Torquebox::Message::Formats::VERSION
   gem.authors       = ["Kevin Olbrich"]
   gem.email         = ["kolbrich@6fusion.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{TODO: Provides additional message serialization formats for torquebox}
+  gem.summary       = %q{TODO: Provides additional message serialization formats for torquebox}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
+  gem.add_runtime_dependency "torquebox-messaging", "~> 2.0"
 end
