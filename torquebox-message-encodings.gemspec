@@ -7,10 +7,10 @@ Gem::Specification.new do |gem|
   gem.name          = "torquebox-message-encodings"
   gem.version       = Torquebox::Message::Encodings::VERSION
   gem.authors       = ["Kevin Olbrich"]
-  gem.email         = ["kolbrich@6fusion.com"]
-  gem.description   = %q{TODO: Provides additional message serialization formats for torquebox}
-  gem.summary       = %q{TODO: Provides additional message serialization formats for torquebox}
-  gem.homepage      = ""
+  gem.email         = ["kevin.olbrich@gmail.com"]
+  gem.description   = %q{Provides additional message serialization formats for torquebox}
+  gem.summary       = %q{Provides additional message serialization formats for torquebox}
+  gem.homepage      = "https://github.com/olbrich/torquebox-message-encodings"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
